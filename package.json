@@ -1,0 +1,23 @@
+{
+    "name": "powered-by",
+    "version": "1.0.0-beta.0",
+    "description": "Get information on what powers a website!",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc && node dist/index.js",
+        "publish": "tsc && npx publish"
+    },
+    "devDependencies": {
+        "@types/jsdom": "^21.1.1",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "jsdom": "^22.1.0"
+    }
+}

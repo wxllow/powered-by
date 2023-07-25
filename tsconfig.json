@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2017", // Only going to run on latest chrome/firefox or on node, so no worries about compatibility
+        "declaration": true,
+        "outDir": "./dist"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
