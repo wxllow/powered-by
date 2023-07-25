@@ -8,12 +8,13 @@
         "/dist"
     ],
     "scripts": {
-        "build": "tsc",
+        "build": "rimraf dist && tsc",
         "start": "tsc && node dist/index.js",
         "publish": "tsc && npx publish"
     },
     "devDependencies": {
         "@types/jsdom": "^21.1.1",
+        "rimraf": "^5.0.1",
         "typescript": "^5.1.6"
     },
     "dependencies": {
